@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.pealkiri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+  background-color: bisque;
+  font-size: 72px;
+  color: darkslategray;
+}
+
+.nupud {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 30%;
+  gap: 20rem;
+}
+
+.nupp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fda07f;
+  height: 5rem;
+  width: 24rem;
+
+  color: darkslategray;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+
+  box-shadow: 1px 3px 7px gray;
+
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.nupp:hover {
+  background-color: #ff946d;
+}
+
+.kell-container {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  width: 40%;
+  height: 10%;
+  background-color: bisque;
+  border-top-right-radius: 0.7rem;
+  box-shadow: -1px 0px 12px gray;
+}
+
+#kell {
+  margin-left: 1rem;
+  font-size: 32px;
+}
