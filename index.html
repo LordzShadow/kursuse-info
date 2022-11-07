@@ -1,11 +1,13 @@
 <html lang="et">
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="avaleht.css">
   <title>Kursuse Info</title>
+
 </head>
 <body>
   <div class="container">
@@ -13,13 +15,21 @@
       <h2>Kursuse Infokeskus</h2>
     </div>
     <div class="nupud">
+      <!--
       <a class="nupp" href="kalender/">Kalender</a>
       <a class="nupp" href="ained/">Aineinfo</a>
       <a class="nupp" href="kursus/">Üldine info</a>
+       -->
+      
+
+      <a href="kalender/"><button class="nupp"><span>kalender </span></button></a>
+      <a href="ained/"><button class="nupp"><span>ained </span></button></a>
+      <a href="kursus/"><button class="nupp"><span>kursus </span></button></a>
     </div>
+
     <footer class="kell-container">
       <div>
-        <div style="color: white;">The Time is: </div>
+        <div style="color: rgb(0, 0, 0);">Aeg on  : </div>
         <div id="Clock" class="glow">00:00:00</div>
      </div>
      <script src= time.js></script>
