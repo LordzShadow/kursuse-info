@@ -1,12 +1,12 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-around;
-    height: 100%;
-    justify-content: space-between;
-    background-color: bisque;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  height: 100%;
+  justify-content: space-between;
+  background-color: bisque;
+}
 
 .pealkiri1 {
   display: flex;
@@ -18,150 +18,102 @@
   font-size: 19px;
   color: darkslategray;
 }
-.nupud {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    height: 30%;
-    gap: 5rem;
-  }
-  
-  .nupp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fda07f;
-    height: 5rem;
-    width: 24rem;
-  
-    color: darkslategray;
-    text-decoration: rgb(220, 220, 220);
-    font-size: 32px;
-    font-weight: 600;
-  
-    box-shadow: 1px 3px 7px gray;
-  
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
-  }
-  
-  .nupp:hover {
-    background-color: #ff946d;
-  }
-  
-  .nupp span {
-    cursor: pointer;
-    display: flex;
-    position: relative;
-    transition: 2s;
-  }
-  
-  .nupp span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 1;
-    top: 0;
-    right: -20px;
-    transition: 10s;
-  }
-  
-  .nupp:hover span {
-    padding-right: 25px;
-  }
-  
-  .nupp:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  .ainedNupud{
-    position: fixed; top: 100px;
-    width: 1000px;
-    height: 690px;
-    border: 15px solid rgb(170, 183, 114);
-    padding: 60px;
-    margin: 20px;
-    background-color: rgb(201, 196, 196);
-    border-radius: 10%;
+
+.ainedNupud {
+  position: fixed;
+  top: 100px;
+  width: 1000px;
+  height: 690px;
+  border: 15px solid rgb(170, 183, 114);
+  padding: 60px;
+  margin: 20px;
+  background-color: rgb(201, 196, 196);
+  border-radius: 10%;
 }
 
-.mmpNupp{
-    cursor: pointer;
-    text-align: center;
-    font-size: 80px;
-    gap: 30px;
-    
-    left: 100px;
-    width: 500px;
-    height: 80px;
-    border: 5px solid rgb(0, 0, 0);
-    padding: 100px;
-    
-    background-color: rgb(226, 162, 162);
-    border-radius: 10%;
+.mmpNupp {
+  cursor: pointer;
+  text-align: center;
+  font-size: 80px;
+  gap: 30px;
+
+  left: 100px;
+  width: 500px;
+  height: 80px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 100px;
+
+  background-color: rgb(226, 162, 162);
+  border-radius: 10%;
 }
 
-.aarNupp{
-    position: relative; right: -480px; top: -230px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 80px;
-    gap: 30px;
-    
-    width: 500px;
-    height: 30px;
-    border: 5px solid rgb(0, 0, 0);
-    padding: 100px;
-    margin: 20px;
-    background-color: rgb(238, 184, 139);
-    border-radius: 10%;
+.aarNupp {
+  position: relative;
+  right: -480px;
+  top: -230px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 80px;
+  gap: 30px;
+
+  width: 500px;
+  height: 30px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 100px;
+  margin: 20px;
+  background-color: rgb(238, 184, 139);
+  border-radius: 10%;
 }
 
-.progaNupp{
-    position: relative;top: -265px; right: 20px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 80px;
-    gap: 30px;
-    
-    width: 500px;
-    height: 30px;
-    border: 5px solid rgb(5, 4, 4);
-    padding: 100px;
-    margin: 20px;
-    background-color: rgb(155, 236, 147);
-    border-radius: 10%;
+.progaNupp {
+  position: relative;
+  top: -265px;
+  right: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 80px;
+  gap: 30px;
+
+  width: 500px;
+  height: 30px;
+  border: 5px solid rgb(5, 4, 4);
+  padding: 100px;
+  margin: 20px;
+  background-color: rgb(155, 236, 147);
+  border-radius: 10%;
 }
 
-.sseNupp{
-    position: relative; top: -515px; right: -480px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 80px;
-    gap: 300px;
-    
-    width: 500px;
-    height: 30px;
-    border: 5px solid rgb(0, 0, 0);
-    padding: 100px;
-    margin: 20px;
-    background-color: rgb(137, 205, 223);
-    border-radius: 10%;
+.sseNupp {
+  position: relative;
+  top: -515px;
+  right: -480px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 80px;
+  gap: 300px;
+
+  width: 500px;
+  height: 30px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 100px;
+  margin: 20px;
+  background-color: rgb(137, 205, 223);
+  border-radius: 10%;
 }
-.kmNupp{
-    position: relative; top: -550px; right: 12px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 100px;
-    gap: 30px;
-    
-    width: 1000px;
-    height: 30px;
-    border: 5px solid rgb(0, 0, 0);
-    padding: 150px;
-    margin: 20px;
-    background-color: rgb(206, 134, 206);
-    border-radius: 10%;
+.kmNupp {
+  position: relative;
+  top: -550px;
+  right: 12px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 100px;
+  gap: 30px;
+
+  width: 1000px;
+  height: 30px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 150px;
+  margin: 20px;
+  background-color: rgb(206, 134, 206);
+  border-radius: 10%;
 }
