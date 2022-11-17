@@ -8,16 +8,6 @@
   background-color: bisque;
 }
 
-.pealkiri1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 30%;
-  background-color: bisque;
-  font-size: 19px;
-  color: darkslategray;
-}
 
 .kalenderRuut {
   width: 700px;

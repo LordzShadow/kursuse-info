@@ -1,44 +1,47 @@
 <html lang="et">
-<head>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="avaleht.css">
-  <title>Kursuse Info</title>
-  <style>
-    body{
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="avaleht.css" />
+    <title>Kursuse Info</title>
+    <style>
+      body {
         background-color: bisque;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="pealkiri">
-      <h2>Kursuse Infokeskus</h2>
-    </div>
-    <div class="nupud">
-      <!--
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="pealkiri">
+        <h2>Kursuse Infokeskus</h2>
+      </div>
+      <div class="nupud">
+        <!--
       <a class="nupp" href="kalender/">Kalender</a>
       <a class="nupp" href="ained/">Aineinfo</a>
       <a class="nupp" href="kursus/">Üldine info</a>
        -->
-      
 
-      <a href="kalender/index.html"><button class="nupp"><span>kalender </span></button></a>
-      <a href="ained/index.html"><button class="nupp"><span>ained </span></button></a>
-      <a href="kursus/index.html"><button class="nupp"><span>kursus </span></button></a>
+        <a href="kalender/index.html"
+          ><button class="nupp"><span>Kalender</span></button></a
+        >
+        <a href="ained/index.html"
+          ><button class="nupp"><span>Ained</span></button></a
+        >
+        <a href="kursus/index.html"
+          ><button class="nupp"><span>Kursus</span></button></a
+        >
+      </div>
+
+      <footer class="kell-container">
+        <div class="kell">
+          <div style="color: rgb(0, 0, 0)">Aeg on :</div>
+          <div id="Clock" class="glow">00:00:00</div>
+        </div>
+        <script src="time.js"></script>
+      </footer>
     </div>
-
-    <footer class="kell-container">
-      <div>
-        <div style="color: rgb(0, 0, 0);">Aeg on  : </div>
-        <div id="Clock" class="glow">00:00:00</div>
-     </div>
-     <script src= time.js></script>
-    </footer>
-
-  </div>
-</body>
+  </body>
 </html>
