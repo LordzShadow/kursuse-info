@@ -1,3 +1,4 @@
+// Autor: Artur 
 setInterval(displayTime, 1000);
 
 function displayTime() {

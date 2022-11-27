@@ -1,3 +1,5 @@
+// Autor: Kustav
+
 // js Date kuud algavad 0-st ehk 0 - jaanuar
 eventTimes = {
   km3kt: new Date(2022, 11, 8),
@@ -9,13 +11,38 @@ eventTimes = {
   sügis22lõpp: new Date(2023, 0, 29),
 };
 
+// Sorteeri sündmused ning peida juba möödunud
 var events = document.getElementById("events");
+sort(events);
 
 for (child of events.children) {
-  console.log(child.id);
   if (eventTimes[child.id] < new Date()) {
     child.style.display = "none";
-  } else {
-    console.log(eventTimes[child.id]);
+  }
+}
+
+// Kood võetud https://www.geeksforgeeks.org/how-to-sort-an-html-list-using-javascript/
+// Veidi muudetud, et töötaks meie olukorras.
+function sort(events) {
+  var stop, i, run, children;
+  run = true;
+
+  while (run) {
+    run = false;
+    children = events.children;
+
+    for (i = 0; i < children.length - 1; i++) {
+      stop = false;
+      if (eventTimes[children[i].id] > eventTimes[children[i + 1].id]) {
+        stop = true;
+        break;
+      }
+    }
+
+    if (stop) {
+      children[i].parentNode.insertBefore(children[i + 1], children[i]);
+
+      run = true;
+    }
   }
 }
