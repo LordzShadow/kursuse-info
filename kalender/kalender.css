@@ -1,12 +1,47 @@
+.sündmused {
+  height: 100%;
+}
 
+.sündmus {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffd9aa;
+  padding: 0 3rem;
+  margin: 3rem;
+  border: 1px solid #3a2121;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
 
+.kalendri-konteiner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
-.kalenderRuut {
-  width: 700px;
-  height: 300px;
-  border: 15px solid rgb(75, 0, 128);
-  padding: 50px;
-  margin: 20px;
-  background-color: gray;
-  border-radius: 10%;
+.pealkiri {
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+.kirjeldus {
+  display: flex;
+  min-width: 25%;
+  flex-wrap: wrap;
+}
+
+.info {
+  flex-wrap: wrap;
+  min-width: 25%;
+  max-width: 25%;
+}
+
+.koht {
+  min-width: 25%;
+  max-width: 25%;
+  text-align: end;
 }

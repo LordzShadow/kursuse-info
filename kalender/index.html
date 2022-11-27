@@ -1,36 +1,138 @@
 <html lang="et">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="kalender.css">
-  <title>Kursuse Info | Kalender</title>
-  <style>
-    body{
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="kalender.css" />
+    <title>Kursuse Info | Kalender</title>
+    <style>
+      body {
         background-color: bisque;
-    }
-  </style>
-</head>
-<body>
-  <div class= "container">
-    <div class="nupud">
-      <!--
-      <a class="nupp" href="kalender/">Kalender</a>
-      <a class="nupp" href="ained/">Aineinfo</a>
-      <a class="nupp" href="kursus/">Üldine info</a>
-       -->
-      
-
-      <a href="../index.html"><button class="nupp"><span>Avaleht</span></button></a>
-      <a href="../ained/index.html"><button class="nupp"><span>Ained</span></button></a>
-      <a href="../kursus/index.html"><button class="nupp"><span>Kursus</span></button></a>
-    </div>
-      <div>
-        <h2> Kalender</h2>
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nupud">
+        <a href="../index.html"
+          ><button class="nupp"><span>Avaleht</span></button></a
+        >
+        <a href="../ained/index.html"
+          ><button class="nupp"><span>Ained</span></button></a
+        >
+        <a href="../kursus/index.html"
+          ><button class="nupp"><span>Kursus</span></button></a
+        >
       </div>
-    <div class = "kalenderRuut">
-      <h2>Info Kalender <p>Looks cool</p></h2>
+      <div class="kalendri-konteiner">
+        <div class="pealkiri">
+          <h2>Kalender</h2>
+        </div>
+        <div class="sündmused" id="events">
+          <div id="km3kt" class="sündmus">
+            <div class="column info">
+              <h2>Kõrgem matemaatika 3. KT</h2>
+              <h2>8. detsember 2022</h2>
+            </div>
+            <div class="kirjeldus">
+              <h3>
+                Kontrolltöö teemadel:<br />Lineaarvõrrandisüsteemid,<br />määratud
+                integraal,<br />määratud integraali rakendused
+              </h3>
+            </div>
+            <div class="koht">
+              <h2>Delta keskus</h2>
+            </div>
+          </div>
+
+          <div id="mmp2kt" class="sündmus">
+            <div class="column info">
+              <h2>Matemaatiline Maailmapilt 2. KT</h2>
+              <h2>12. detsember 2022</h2>
+            </div>
+            <div class="kirjeldus">
+              <h3>
+                Kontrolltöö teemadel:<br />Funktsioonid<br />
+                Hulga võimsus<br />
+                Seosed (välja arvatud osalise järjestuse seos)
+              </h3>
+            </div>
+            <div class="koht">
+              <h2>Delta keskus</h2>
+            </div>
+          </div>
+
+          <div id="kevad23regamine" class="sündmus">
+            <div class="column info">
+              <h2>Kevadsemestri ainete registreerimine</h2>
+              <h2>15. detsember 2022</h2>
+            </div>
+            <div class="kirjeldus">
+              <h3>
+                Saab hakata registreerima kevedsemestri ainetele, olge kiired!
+              </h3>
+            </div>
+            <div class="koht">
+              <h2>ÕIS 2</h2>
+            </div>
+          </div>
+
+          <div id="vaheaeg" class="sündmus">
+            <div class="column info">
+              <h2>Jõuluvaheaeg</h2>
+              <h2>19. detsember 2022</h2>
+            </div>
+            <div class="kirjeldus">
+              <h3>Koolist väike puhkus, nautige elu!</h3>
+            </div>
+            <div class="koht">
+              <h2>Kusiganes</h2>
+            </div>
+          </div>
+
+          <div id="24dets" class="sündmus">
+            <div class="column info">
+              <h2>Jõulud</h2>
+              <h2>24. detsember 2022</h2>
+            </div>
+            <div class="kirjeldus">
+              <h3>Häid pühi!</h3>
+            </div>
+            <div class="koht">
+              <h2></h2>
+            </div>
+          </div>
+
+          <div id="sess" class="sündmus">
+            <div class="column info">
+              <h2>Eksami sess</h2>
+              <h2>03. jaanuar 2023</h2>
+            </div>
+            <div class="kirjeldus">
+              <h3>Eksami sessioon, järgmised nädalad viimased suured tööd see semester.</h3>
+            </div>
+            <div class="koht">
+              <h2>Tartu Ülikool</h2>
+            </div>
+          </div>
+
+          <div id="sügis22lõpp" class="sündmus">
+            <div class="column info">
+              <h2>Süsisemestri lõpp</h2>
+              <h2>29. jaanuar 2023</h2>
+            </div>
+            <div class="kirjeldus">
+              <h3>Semester saab läbi ning algab uus.</h3>
+            </div>
+            <div class="koht">
+              <h2>Tartu Ülikool</h2>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+
+    <script src="kalender.js"></script>
+  </body>
 </html>
