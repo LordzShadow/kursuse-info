@@ -1,12 +1,3 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: space-around;
-  height: 100%;
-  justify-content: space-between;
-}
-
 .pealkiri {
   display: flex;
   align-items: center;
