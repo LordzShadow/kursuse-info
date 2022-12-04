@@ -8,7 +8,7 @@ function displayTime() {
     let hoursOfDay = timeNow.getHours();
     let minutes = timeNow.getMinutes();
     let seconds = timeNow.getSeconds();
-    let weekDay = ["Pühapäev", "Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev", "Pühapäev"]
+    let weekDay = ["Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev", "Pühapäev"]
     let today = weekDay[timeNow.getDay()];
     let months = timeNow.toLocaleDateString("ee", {
         month: "long"

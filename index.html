@@ -6,11 +6,40 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="avaleht.css" />
     <title>Kursuse Info</title>
-    <style>
-      body {
-        background-color: bisque;
-      }
-    </style>
+
+    <div class="snowflakes" aria-hidden="true">
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❄
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❄
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❄
+      </div>
+    </div>
+
   </head>
   <body>
     <div class="container">
@@ -37,10 +66,32 @@
 
       <footer class="kell-container">
         <div class="kell">
-          <div style="color: rgb(0, 0, 0)">Aeg on :</div>
+          <div style="color: rgb(255, 255, 255)">Aeg on :</div>
           <div id="Clock" class="glow">00:00:00</div>
         </div>
         <script src="time.js"></script>
+      </footer>
+
+      <footer class="music-container">
+
+
+        <div class = 'Music'>
+
+          <div style = "color: white"></div>
+          <button id="play" class = "music-nupp">Natuke Jazzi </button>
+
+          <script>
+            let play = document.getElementById("play")
+            function playMusic(){
+              let audio = new Audio("jazz.mp3");
+              audio.play()
+
+            }
+            play.addEventListener("click",playMusic);
+            </script>
+
+        </div>
+
       </footer>
     </div>
   </body>
