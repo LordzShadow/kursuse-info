@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   background-color: rgb(40, 72, 120);
-  background-size: 100%;
+  background-size: cover;
   font-family: 'Raleway', sans-serif;
   margin: 0;
   height: 100vh;
