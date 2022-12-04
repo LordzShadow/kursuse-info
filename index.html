@@ -8,38 +8,17 @@
     <title>Kursuse Info</title>
 
     <div class="snowflakes" aria-hidden="true">
-      <div class="snowflake">
-      ❅
-      </div>
-      <div class="snowflake">
-      ❅
-      </div>
-      <div class="snowflake">
-      ❆
-      </div>
-      <div class="snowflake">
-      ❄
-      </div>
-      <div class="snowflake">
-      ❅
-      </div>
-      <div class="snowflake">
-      ❆
-      </div>
-      <div class="snowflake">
-      ❄
-      </div>
-      <div class="snowflake">
-      ❅
-      </div>
-      <div class="snowflake">
-      ❆
-      </div>
-      <div class="snowflake">
-      ❄
-      </div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❄</div>
     </div>
-
   </head>
   <body>
     <div class="container">
@@ -47,12 +26,6 @@
         <h2>Kursuse Infokeskus</h2>
       </div>
       <div class="nupud">
-        <!--
-      <a class="nupp" href="kalender/">Kalender</a>
-      <a class="nupp" href="ained/">Aineinfo</a>
-      <a class="nupp" href="kursus/">Üldine info</a>
-       -->
-
         <a href="kalender/index.html"
           ><button class="nupp"><span>Kalender</span></button></a
         >
@@ -64,35 +37,18 @@
         >
       </div>
 
-      <footer class="kell-container">
+      <footer class="footer">
         <div class="kell">
-          <div style="color: rgb(255, 255, 255)">Aeg on :</div>
           <div id="Clock" class="glow">00:00:00</div>
         </div>
-        <script src="time.js"></script>
-      </footer>
-
-      <footer class="music-container">
-
-
-        <div class = 'Music'>
-
-          <div style = "color: white"></div>
-          <button id="play" class = "music-nupp">Natuke Jazzi </button>
-
-          <script>
-            let play = document.getElementById("play")
-            function playMusic(){
-              let audio = new Audio("jazz.mp3");
-              audio.play()
-
-            }
-            play.addEventListener("click",playMusic);
-            </script>
-
+        <div class="music">
+          <button onclick="toggleMusic()" class="music-nupp">
+            Natuke Jazzi
+          </button>
         </div>
-
       </footer>
+      <script src="time.js"></script>
+      <script src="music.js"></script>
     </div>
   </body>
 </html>

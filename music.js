@@ -1,15 +1,12 @@
-function playPause() {
-    var mediaPlayer = document.getElementById('media-video');
+// Autor: Artur ja Kustav
 
-    if (mediaPlayer.paused) {
-        mediaPlayer.play(); 
-        $('.pause-btn').show();
-        $('.play-btn').hide();
+let audio = new Audio("jazz.mp3");
 
-    } else {
-        
-        mediaPlayer.pause(); 
-        $('.play-btn').show();
-        $('.pause-btn').hide();
-    }
+// Pane muusika mängima või vait
+function toggleMusic() {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
 }

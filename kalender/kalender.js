@@ -23,6 +23,7 @@ for (child of events.children) {
 
 // Kood võetud https://www.geeksforgeeks.org/how-to-sort-an-html-list-using-javascript/
 // Veidi muudetud, et töötaks meie olukorras.
+// Sorteeri htmli elemendid kuupäeva jörgi.
 function sort(events) {
   var stop, i, run, children;
   run = true;

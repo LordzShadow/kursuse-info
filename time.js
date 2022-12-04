@@ -1,6 +1,7 @@
 // Autor: Artur 
 setInterval(displayTime, 1000);
 
+// Kalkuleeri kuupäeva tekst ning pane see kella elemendile.
 function displayTime() {
 
     const timeNow = new Date();
@@ -8,9 +9,10 @@ function displayTime() {
     let hoursOfDay = timeNow.getHours();
     let minutes = timeNow.getMinutes();
     let seconds = timeNow.getSeconds();
-    let weekDay = ["Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev", "Pühapäev"]
+    let weekDay = ["Pühapäev", "Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev"]
     let today = weekDay[timeNow.getDay()];
-    let months = timeNow.toLocaleDateString("ee", {
+    let date = timeNow.getDate();
+    let month = timeNow.toLocaleDateString("et", {
         month: "long"
     });
 
@@ -22,7 +24,7 @@ function displayTime() {
 
     let time = hoursOfDay + ":" + minutes + ":" + seconds;
 
-    document.getElementById('Clock').innerHTML = time + " " + today + " " + months + " " + year;
+    document.getElementById('Clock').innerHTML = `${today} ${date}. ${month} ${year} ${time}`;
 
 }
 displayTime();

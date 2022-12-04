@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #ffd9aa;
+  color: darkslategray;
   padding: 0 3rem;
   margin: 3rem;
   border: 1px solid #3a2121;
