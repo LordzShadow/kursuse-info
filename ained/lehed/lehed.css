@@ -1,10 +1,10 @@
 
 
-.snowflake {
-  color: #fff;
-  font-size: 1em;
-  font-family: Arial;
-  text-shadow: 0 0 1px rgb(255, 255, 255);
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 
 h1 {
