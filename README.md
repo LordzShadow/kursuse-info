@@ -1,2 +1,2 @@
-# kursuse-info
-Cool info for cool people
+# kursuse-info AKA
+[Siit saad meie wikisse!](https://github.com/LordzShadow/kursuse-info/wiki/Projekt)
